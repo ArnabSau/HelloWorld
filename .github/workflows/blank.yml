@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Tell a Joke Action
-        uses: ArnabSau/my-github-action@v1.1
+        uses: ArnabSau/my-github-action@main
