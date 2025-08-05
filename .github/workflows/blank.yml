@@ -11,13 +11,5 @@ jobs:
     name: Print
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-      
-      - name: Run python file
-        run: python3 main.py
+      - name: Tell a Joke Action
+        uses: ArnabSau/my-github-action@v1
